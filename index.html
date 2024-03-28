@@ -1,1 +1,81 @@
-hi
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steven Sellick - Digital Business Card</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .content {
+            text-align: center;
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 3em;
+            font-weight: 700;
+            margin: 0.25em 0;
+        }
+        h2 {
+            font-size: 2em;
+            font-weight: 400;
+            margin: 0.2em 0;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 0.5em 0;
+        }
+        p.contact {
+            font-size: 0.8em; /* Smaller font size for LinkedIn text */
+            margin: 1em 0; /* Increased separation */
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+            background-image: url('https://drive.google.com/uc?id=0B6idUyzwgT9DTnZkdFYwUkxsZVk');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .linkedin-logo {
+            display: inline-block;
+            margin-top: 10px;
+            background: url('https://cdn-icons-png.flaticon.com/512/174/174857.png') no-repeat center center;
+            width: 20px; /* Smaller LinkedIn logo size */
+            height: 20px;
+            background-size: 20px 20px; /* Smaller size */
+            filter: grayscale(100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="logo"></div>
+        <h1>Steven Sellick</h1>
+        <h2>Helioworks Limited</h2>
+		<br>
+		<br>
+		<a href="https://www.linkedin.com/in/steven-sellick" class="logo" target="_blank"></a>
+		<br>
+		<br>
+        <p>Solar Design</p>
+		<br>
+		<br>
+        <p class="contact">Please get in touch via LinkedIn</p>
+        <a href="https://www.linkedin.com/in/steven-sellick" class="linkedin-logo" target="_blank"></a>
+    </div>
+</body>
+</html>
